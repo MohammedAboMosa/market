@@ -1,0 +1,23 @@
+.About{
+    background-color: lightslategrey;
+    height: 1153px;
+    background-size: 51.5%;
+    
+  
+  }
+  
+  
+  .title {
+    font-size: 240px;
+    text-align: center;
+    letter-spacing: -.04em;
+    color: #05000d;
+    
+  }
+  
+  
+  .AboutUs{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
