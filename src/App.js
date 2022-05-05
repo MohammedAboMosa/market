@@ -1,6 +1,5 @@
 import React from 'react';
 import Sign from './components/Sign.js'
-import Navb from './components/Navb.js'
 import Home from './components/Home.js'
 import About from './components/About.js'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
