@@ -1,26 +1,25 @@
-import React from 'react';
-import Sign from './components/Sign.js'
-import Home from './components/Home.js'
-import About from './components/About.js'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React from "react";
+import Sign from "./components/Sign.js";
+import Home from "./components/Home.js";
+import About from "./components/About.js";
+import ShowItem from "./components/ShowItem.js";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div >
-<BrowserRouter>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/Home" element={<Home />} />
+          <Route path="/ShowItem" element={<ShowItem />} />
+          <Route path="/Sign" element={<Sign />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/ShowItem" element={<ShowItem />} />
 
-
-
-    <Routes>
-      <Route exact  path="/"             element={<Home/>} />
-      <Route        path="/About"        element={<About />} />
-      <Route        path="/Sign"         element={<Sign />} />
-    </Routes>
-
-
-</BrowserRouter>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;

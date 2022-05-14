@@ -1,29 +1,29 @@
 [
   {
     "idx": 1,
-    "url":"./1.gif",
-    "name": "jacket",
+    "url":"./4.gif",
+    "name": "bag 1",
     "description":"an outer garment extending either to the waist or the hips, typically having sleeves and a fastening down the front.",
    "price":"35$"
   },
   {
     "idx": 2,
-    "url":"./2.gif",
-   "name" :"pants",
+    "url":"./4.gif",
+   "name" :"bag 2",
    "description":"an outer garment covering the body from the waist to the ankles, with a separate part for each leg.",
    "price":"25$"
-  },   
+  },
   {
     "idx": 3,
-    "url":"./3.gif",
-    "name": "Shoes",
+    "url":"./4.gif",
+    "name": "bag 3",
     "description":"a covering for the foot, typically made of leather, having a sturdy sole and not reaching above the ankle.",
    "price":"15$"
   },
   {
     "idx": 4,
     "url":"./4.gif",
-    "name": "bag",
+    "name": "bag 4",
    "description": "a container made of flexible material with an opening at the top, used for carrying things.",
    "price":"5$"
   }
